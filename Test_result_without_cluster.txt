@@ -1,0 +1,20 @@
+No. of Printers	   	Time taken to create queues for all of them
+				(without clustering)
+---------------         -------------------------------------------
+
+     2 	 		2 sec
+
+     5 	 		4 sec
+
+    10 	 		7 sec
+
+    20 	 		19 sec
+ 
+    50 	 		1min 10 sec
+
+   100 	 		2min 29 sec
+
+   150 	 		3min 50 sec
+
+   200 	 		7min 45 sec
+
