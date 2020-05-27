@@ -7,14 +7,14 @@ then
 	exit
 fi
 
-name="TESTP"
+name="MYTESTP"
 port=8400
 count=$1
 for i in 0 $(seq $count)
 do
 	temp_name=$name$i
 	temp_port=$(($port + $i))
-	ippeveprinter -D ~/test -f application/pdf -p $temp_port $temp_name &
+	ippeveprinter -c /usr/bin/file  -D ~/test -f application/pdf -p $temp_port \"$temp_name\" & 
 done
 
-exit
+echo "FINISH"

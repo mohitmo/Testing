@@ -7,7 +7,7 @@ then
 	exit
 fi
 
-name="MYTESTP"
+name="TESTP"
 port=8000
 count=$1
 for i in 0 $(seq $count)
