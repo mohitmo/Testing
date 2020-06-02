@@ -9,7 +9,7 @@ fi
 
 name="TESTP"
 port=8000
-count=$1
+count=$(($1-1))
 for i in 0 $(seq $count)
 do
 	temp_name=$name$i
